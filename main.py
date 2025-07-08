@@ -1,10 +1,3 @@
-#CITATION
-#Title: Python String join() Method
-#Author: w3schools.com
-#Date:4/28/25
-#Code Version: Python
-#Availability: https://www.w3schools.com/python/ref_string_join.asp
-
 def reverse_sentence(sentence):
   #Splits the inputted sentence from the user using a parameter into word by word, and stores it into a list called words
   words = sentence.split()
@@ -28,14 +21,6 @@ def reverse_sentence(sentence):
 sentenceInput = input("Type a sentence that you want to reverse!: ")
 #Formats the output of the reversed sentence in a print statement and a nice way for the user to view.
 print("The reversed version of this sentence is:", reverse_sentence(sentenceInput))
-
-
-#CITATION
-#Title: Python list() Function
-#Author: geeksforgeeks.org
-#Date: 4/28/25
-#Code Version: Python
-#Availability: http://geeksforgeeks.org/python-list-function/
 
 #EXTRA: Asks user if they want the letters reversed of their sentence as well
 wantToReverseWords = input("Do you want to reverse the letters of your sentence as well? (Y/N): ")
